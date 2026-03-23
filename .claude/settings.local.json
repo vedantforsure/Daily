@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(claude-api)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\HP\\\\Desktop\\\\Claude Type Shi\\\\update-app\\\\server\\\\src\")",
+      "Bash(mkdir -p \"C:\\\\Users\\\\HP\\\\Desktop\\\\Claude Type Shi\\\\update-app\\\\client\\\\src\")",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "mcp__plugin_figma_figma__get_design_context",
+      "mcp__plugin_figma_figma__get_screenshot",
+      "Bash(taskkill:*)",
+      "Bash(gh auth:*)"
+    ]
+  }
+}
