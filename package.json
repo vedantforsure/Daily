@@ -8,7 +8,11 @@
     "install:all": "npm install && cd server && npm install && cd ../client && npm install",
     "build": "cd client && npm run build"
   },
+  "dependencies": {
+    "groq-sdk": "^0.9.0"
+  },
   "devDependencies": {
+    "@vercel/node": "^3.0.0",
     "concurrently": "^8.2.2"
   }
 }
